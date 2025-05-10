@@ -1,0 +1,15 @@
+.ready{
+    background-image: url(./img/pic13.jpg);
+    background-size: cover;
+}
+.video{
+    background-image: url(./img/pic12.jpg);
+    background-size: cover;
+}
+
+.title{
+    background-color: rgba(202, 194, 183, 0.621);
+    box-sizing: border-box;
+    width: 50%;
+    height: 65%;
+}
