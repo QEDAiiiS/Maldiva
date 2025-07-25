@@ -1,15 +1,66 @@
-.ready{
-    background-image: url(./img/pic13.jpg);
-    background-size: cover;
+.ready {
+  background-image: url(./img/pic13.jpg);
+  background-size: cover;
 }
-.video{
-    background-image: url(./img/pic12.jpg);
-    background-size: cover;
+.video {
+  background-image: url(./img/pic12.jpg);
+  background-size: cover;
 }
 
-.title{
-    background-color: rgba(202, 194, 183, 0.621);
-    box-sizing: border-box;
-    width: 50%;
-    height: 65%;
+/* .title {
+  background-color: rgba(202, 194, 183, 0.776);
+  box-sizing: border-box;
+  width: 31%;
+  top: 40%;
+  left: 35%;
+}
+.title button {
+    border-radius: 40px;
+}
+@media (max-width: 768px) {
+  .title{
+    background-color: rgba(202, 194, 183, 0.378);
+    width: 80%;
+    left: 30px;
+    top: 60px;
+  }
+  .title h1 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .title p {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .title button {
+  }
+} */
+
+.signIn{
+    align-items: center;
+}
+.signIn div{
+    background-color: rgba(202, 194, 183, 0.776);
+}
+.signIn h1{
+    font-weight: bold;
+}
+
+@media (max-width: 450px) {
+    .signIn div{
+        background-color: rgba(202, 194, 183, 0.286);
+    }
+
+    .signIn button{
+        background-color:  rgba(202, 194, 183, 0.776);
+    }
+    .signIn p{
+        font-weight: 700;
+    }
+    .signIn{
+        align-items: end;
+    }
+}
+.carousel-inner {
+  max-height: 100vh;
 }
